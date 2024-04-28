@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo ">>> Running YassOS..."
+cd Images
+qemu-system-i386 -cdrom yassOS.iso || exit
+cd ..
+
